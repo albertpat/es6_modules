@@ -44,7 +44,7 @@ function addCar(event) {
   let model = modelInput.value;
   let year = yearInput.value;
   wishList.add(make, model, year);
-  updateDomList(wishList);
+  updateDomList();
 }
 
 function removeCar() {
